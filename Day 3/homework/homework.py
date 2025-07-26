@@ -68,7 +68,7 @@ favorite_TV_show = "Dexter"
 hobby_name = "ბერძნულ-რომაული ჭიდაობა"
 
 # ქვემოთ სტრინგების გაერთიანებას ეწოდება "კონკატენაცია" (Concatenation)
-full_sentence = first_name + last_name + " ცხოვრობს ქალაქში " + city_name + ", უყვარს სერიალი " + favorite_TV_show + " და ჰობად აქვს " + hobby_name
+full_sentence = first_name + last_name + "ცხოვრობს ქალაქში" + city_name + ", უყვარს სერიალი" + favorite_TV_show + " და ჰობად აქვს " + hobby_name
 
 print(full_sentence)
 
@@ -96,26 +96,22 @@ print(result)
 
 #2)
 # name + number — არ შეიძლება
-# კომენტარი: სტრინგსა და რიცხვს ვერ დავუმატებთ ერთმანეთს პირდაპირ, გამოიწვევს შეცდომას (TypeError)
-# print(name + number)  # ეს გამოიწვევს შეცდომას:
-# TypeError: can only concatenate str (not "int") to str
+# კომენტარი: სტრინგსა და რიცხვს ვერ დავუმატებთ ერთმანეთს, გამოიწვევს შეცდომას (TypeError)
+# print(name + number)  #ეს გამოიწვევს შეცდომას:
+# TypeError: can only concatenate str (not "int") to str.
 
 #3)
 # name - number, name / number, name ** number — არ შეიძლება
 # კომენტარი: გამოკლება, გაყოფა, ხარისხში აყვანა და სხვა რიცხვითი ოპერაციები სტრინგზე არ მუშაობს.
 
 #მაგ:
-# print(name - number)  # შეცდომა
-# print(name / number)  # შეცდომა
-# print(name ** number) # შეცდომა
-
-# გამოსავალი: თუ მაინც მინდა სტრინგსა და რიცხვს შეაერთო, რიცხვი უნდა გადაიყვანო სტრინგად:
-print(name + str(number))  # შედეგი: ლუკა5
+# print(name - number)  #შეცდომა
+# print(name / number)  #შეცდომა
+# print(name ** number) #შეცდომა
 
 #მოკლე შეჯამება:
-# მხოლოდ ორი ოპერაციაა დაშვებული სტრინგსა და ინტეჯერზე:
-# 1) str * int — სტრინგის გამრავლება (გაიმეორება)
-# 2) str + str — სტრინგების გაერთიანება (თუ int გადაიქცევა str-ად)
+# მხოლოდ ერთი ოპერაციაა დაშვებული სტრინგსა და ინტეჯერზე:
+# str * int — სტრინგის გამრავლება.
 
 # შემდეგი ოპერაციები სტრინგზე და ინტეჯერზე არ შეიძლება:
 # str + int
