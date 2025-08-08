@@ -38,8 +38,8 @@ for i in range(1,31):
 
 
 #VII დავალება: მომხმარებელს შემოატანინეთ მისი ასაკი 13 ჯერ გამოიყენე for loop.
-# for i in range(13):
-#     print(input("Enter your age: "))
+for i in range(13):
+    print(input("Enter your age: "))
 
 
 #VIII დავალება: გამოიტანეთ თქვენი სახელი 10 ჯერ while loop ის გამოყენებით.
@@ -76,5 +76,5 @@ for i in range(9,99):
 for i in range(33):
     print(str(i) + "Jesus")
 
-for i in range(0,54):
+for i in range(24,42):
     print(str(i) + "shutter" + "island")
