@@ -1,0 +1,175 @@
+<head>
+    <title>Label</title>
+</head>
+
+<body>
+    <h2><u>Registration form</u></h2>
+    <form>
+        <label for="name">First name</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="name">Last name</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="name">Nick Name</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="email">e-mail</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="date">Date of birth</label>
+        <input type="text" id="date"><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender">Male
+        <input type="radio" id="gender">Female
+        <input type="radio" id="gender">Others
+        <br><br><br>
+    </form>
+
+    <form>
+        <label for="name">First name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="name">Last name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="gender">Gender :</label>
+        <input type="radio" id="Gender">Male
+        <input type="radio" id="gender">Female <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="date">Date of birth:</label>
+        <input type="date" id="date"><br><br><br>
+    </form>
+
+    <h2>HTML Form Action</h2>
+    <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name"><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="text" id="gender"><br>
+
+        <label for="number">Contact No</label><br>
+        <input type="text" id="number"><br><br>
+
+        <label for="submit"></label>
+        <input type="submit" id="submit">
+        <br><br><br>
+    </form>
+
+    <form>
+        <label for="name">Full Name: </label>
+        <input type="text" placeholder="Full Name" id="name"><br>
+
+        <label for="password">Password: </label>
+        <input type="password" placeholder="Password" id="password"><br>
+
+        <label for="gender">Gender :</label>
+        <input type="radio" id="Gender">Male
+        <input type="radio" id="gender">Female <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br><br><br>
+    </form>
+
+    <form>
+        <!--ჩვეულებრივი ღილაკი (არაფერს აკეთებს მარტო, სანამ კოდი არ მიებას).-->
+        <label for="button">button</label>
+        <input type="button" id="button"><br><br>
+
+        <!--პატარა ჩეკბოქსი (მონიშვნა/ამოშლა).-->
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" id="checkbox"><br><br>
+
+        <!--ფერის ამრჩევი-->
+        <label for="color">color</label>
+        <input type="color" id="color"><br><br>
+
+        <!--კალენდრიდან კონკრეტული დღის არჩევა.-->
+        <label for="date">date</label>
+        <input type="date" id="date"><br><br>
+
+        <!--ძველი, აღარ მუშაობს (უყურებს როგორც text).-->
+        <label for="datetime">datetime</label>
+        <input type="datetime" placeholder="datetime" id="datetime"><br><br>
+
+        <!--თარიღი + დროის ერთად არჩევა.-->
+        <label for="datetime-local">datetime-local</label>
+        <input type="datetime-local" id="datetime-local"><br><br>
+
+        <!--ელ-ფოსტის შესაყვანი ველი (ამოწმებს რომ @ ეწეროს).-->
+        <label for="email">email</label>
+        <input type="email" placeholder="email" id="email"><br><br>
+
+        <!--ფაილის ატვირთვა (მაგ: ფოტო, დოკუმენტი).-->
+        <label for="file">file</label>
+        <input type="file" id="file"><br><br>
+
+        <!--დამალული ველი (მომხმარებელს არ აჩვენებს, მაგრამ მონაცემი იგზავნება).-->
+        <input type="hidden" id="hidden"><br><br>
+
+        <!--სურათი, რომელიც ღილაკივით მუშაობს.-->
+        <label for="image">image</label><br>
+        <input type="image" src="GOATHEGOAT.jpg" width="150" lenght="160" alt="image id="image"><br><br>
+
+        <!--თვის არჩევა (მაგ: იანვარი 2009).-->
+        <label for="month">month</label>
+        <input type="month" id="month"><br><br>
+
+        <!--რიცხვების შესაყვანი ველი (+ ღილაკები მატება/კლებისთვის).-->
+        <label for="number">number</label>
+        <input type="number" placeholder="number" id="number"><br><br>
+
+        <!--ტექსტი, მაგრამ ასოები დამალულია ••• (მაგ: პაროლი).-->
+        <label for="password">password</label>
+        <input type="password" placeholder="password" id="password"><br><br>
+
+        <!--მრგვალი ღილაკი (სხვა ვარიანტებიდან მხოლოდ ერთის არჩევა).-->
+        <label for="radio">radio</label>
+        <input type="radio" id="radio"><br><br>
+
+        <!--სლაიდერი (მაგ: ხმის სიმაღლის რეგულაცია).-->
+        <label for="range">range</label>
+        <input type="range" id="range"><br><br>
+
+        <!--ფორმაში შეყვანილი ყველაფრის გასუფთავება.-->
+        <label for="reset">reset</label>
+        <input type="reset" id="reset"><br><br>
+
+        <!--ტექსტური ველი ძიებისთვის — ტექნიკურად ისეთივე როგორც text, მაგრამ ბრაუზერები ხშირად აჩვენებენ „clear“ ღილაკს და
+        უკეთეს ძიების UI-ს უჭერენ მხარს.-->
+        <label for="search">search</label>
+        <input type="search" placeholder="search" id="search"><br><br>
+
+        <!--ღილაკი, რომელიც ფორმას აგზავნის.-->
+        <label for="submit">submit</label>
+        <input type="submit" id="submit"><br><br>
+
+        <!--ტელეფონის ნომრის ველი.-->
+        <label for="tel">tel</label>
+        <input type="tel" placeholder="tel" id="tel"><br><br>
+
+        <!--ჩვეულებრივი ტექსტის შესაყვანი ველი (მაგ: სახელი).-->
+        <label for="text">text</label>
+        <input type="text" placeholder="text" id="text"><br><br>
+
+        <!--დროის არჩევა.-->
+        <label for="time">time</label>
+        <input type="time" id="time"><br><br>
+
+        <!--ბმულის შესაყვანი ველი (ამოწმებს რომ http:// ან https:// იყოს).-->
+        <label for="url">url</label>
+        <input type="url" placeholder="url" id="url"><br><br>
+
+        <!--კვირის არჩევა.-->
+        <label for="week">week</label>
+        <input type="week" placeholder="week" id="week"><br><br>
+    </form>
+</body>
