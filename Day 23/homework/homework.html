@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Drop-Down Menus</title>
+    </head>
+
+    <body>
+        <!--I დავალება: შექმენით ფორმა, სადაც  მომხარებელს შემოატანინებთ  სახეელს, ემეილს, პაროლს, და მანქანის ბერენდს სადაც გექნებათ  dropdown
+        მენიუ შესარჩევად.-->
+        <form>
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">ემაილი:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="car">აირჩიეთ მანქანის ბრენდი:</label>
+            <select id="car" name="car">
+                <option value="BMW">BMW</option>
+                <option value="Mercedes" selected>Mercedes</option>
+                <option value="Audi">Audi</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Ferrari">Ferrari</option>
+            </select><br><br>
+
+            <input type="submit" value="submit">
+        </form>
+
+
+        <!--II დავალება: კომენტარების სახით ახსენით როგორ იგებს პროგრამა ინპუთი სად შეინაახოს და როგორ შეინახოს.-->
+        <input name="saxeli">
+        <!-- როცა რაღაცას წერ input-ში, ბრაუზერი ამ მნიშვნელობას იმ სახელს იქ ინახავს, რაც name-ში წერია. თუ დაწერე "ლუკა", მაშინ ბრაუზერი
+        დაიმახსოვრებს: name = ლუკა -->
+
+
+        <!--III დავალება: კომენტარების სახით ახსენით რა ხდება როცა ვაsubmitებთ ფორმას, მისამართს რა ემართება და რა ემატება, რა განაპირობებს ამას.-->
+        <!-- როცა დააჭერ submit-ს, კომპიუტერი აგროვებს იმ ყველაფერს, რაც input-ებში ჩაწერე. მერე ამ ინფორმაციას აგზავნის იქ, სადაც ფორმა უნდა
+        წავიდეს (გვერდზე ან პროგრამაში). ამიტომაც submit-ის დროს ის, რასაც ვწერთ, ინახება და იგზავნება ერთიანად. -->
+
+
+        <!--IV დავალება: გადახედეთ მასალას
+        https://www.w3schools.com/html/html_forms.asp
+        https://www.w3schools.com/howto/howto_css_dropdown.asp-->
+        <!-- გადავხედე✅ -->
+    </body>
+</html>

@@ -39,8 +39,8 @@ print(box[0])
 #თითოეული ელემენტი ცალ ცალკე.
 Planguages = ["Python", "CSS", "JavaScript", "HTML", "C#"]
 
-for Planguage in Planguages:
-    print(Planguage)
+for i in range(0,5):
+    print(Planguages[i])
 
 i = 0
 while i < 5:
@@ -61,18 +61,19 @@ print(items)
 
 
 #VI დავალება: იპოვეთ საბოლოო პასუხი--> True and False or False and True or false and false or true ---> ...
+# ამ მოქმედებაში საერთოდ პირველი სრულდება სულ "and"-ები.
 # 1: True and False = False ---> False or False and True or False and False or True
 # 2: False and True = False ---> False or False or False and False or True
 # 3: False and False = False ---> False or False or False or True
-# 4: False or False = False ===> False or False = False ===> False or True = True
+# 4: False or False = False ---> False or False = False ===> False or True = True
 True and False or False and True or False and False or True
 
 
 #VII დავალება: შექმენით სია სადაც მოთავსებული გექნებათ ცხოველების სახელები, თქვენი დავალებაა რომ -->  თუ ამ სიაში მოთავსებული მე-3 ინდექსზე
 #მდგომი ელემენტი არის ლომი მაშინ დაპრინტე --> "there is lion on index 3" სხვა შემთხვევაში დაუპრინტე რომ --> "there is no lion on index 3".
-animals = ["კურდღელი", "ციყვი", "მელია", "ლომ", "ცხენი"]
+animals = ["კურდღელი", "ციყვი", "მელია", "ლომი", "ცხენი"]
 
-if animals[3] == "ლომ":
+if animals[3] == "ლომი":
     print("there is lion on index 3")
 else:
     print("there is no lion on index 3")
@@ -160,21 +161,15 @@ print(word3)
 
 letters = ["ა", "ბ", "გ", "ო", "ლ", "ა", "მ", "ა", "ტ", "ე"]
 
-letter = letters[4]
-
-if letter == "ლ":
+if letters[4] == "ლ":
     print("სწორია! ასო ლ ა")
 else:
     print("არასწორია, სცადე თავიდან")
 
-
-last_letter = letters[9]
-
-if last_letter == "ე":
+if letters[9] == "ე":
     print("საიდუმლო სიტყვა იწყება სწორად")
 else:
     print("საიდუმლო სიტყვა არასწორია")
-
 
 word = letters[2] + letters[9] + letters[4] + letters[5]
 
@@ -188,6 +183,9 @@ else:
 #გამოიტანო მომხმარებლის მიერ შემოტანილ რიცხვზე (ინდექსზე) მდგომი ელემენტი.
 film_roles = ["Director", "Producer", "Executive producer", "Principal cast", "Casting director"]
 
-index = int(input("შეიყვანე რიცხვი: "))
+pick_a_role = int(input("შეიყვანე რიცხვი: "))
 
-print(film_roles[index])
+if pick_a_role >= 0 and pick_a_role <= 5:
+    print(film_roles[pick_a_role])
+else:
+    print("Chat ძმას ჰგონია რომ ეს რიცხვი არსებობს")
