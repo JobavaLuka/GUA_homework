@@ -75,7 +75,3 @@ print(sentence[-24:-17])
 print()
 print(sentence[23:32])
 print(sentence[-8:])
-
-word = "run"
-word[0] = "f"
-print(word)
