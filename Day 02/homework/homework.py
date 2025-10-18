@@ -1,83 +1,45 @@
-#I დავალება:
-a = 10
-b = 5
+# ჩვენ წინა გაკვეთილში ვისწავლეთ 5 მონაცემთა ტიპი, ესენია: string, integer, float, boolean(ბულიონ) და print().
 
-print(a + b)
+#print() -- არის ფუნქცია რომელსაც გამოაქვს შედეგი ტერმინალში.
 
-print(a - b)
+#string -- ტექსტი, რომელიც მოცემული გვაქვს ბრჭყალებში "". მეორენაირად ტექსტის მონაცემთა ტიპი, ანუ სიმბოლოების მიმდევრობა.
+# მაგ: შეიცავს ასოებს, ციფრებს, სიმბოლოებს და ცარიელ ადგილებს (space).
+print("Luka")
+print("computer")
+print("200")
+print("house")
+print("14.5")
 
-print(a * b)
+#integer -- არის მთელი რიცხვები, ანუ ყოველი მთელი რიცხვი მინუს უსასრულობიდან პლიუს უსასრულობამე.
+# მაგ: 1, 2, , 6, 2348, 689006.
+print(10)
+print(20)
+print(50)
+print(250)
+print(2000)
 
-print(a / b)
+#float -- არის ათწილადი რიცხვები ან არამთელი რიცხვები.
+# მაგ: 2.5, 26.7, 89.12.
+print(1.5)
+print(8.7)
+print(66.3)
+print(145.6)
+print(1925.56)
 
+#boolean -- ბულეანს გადაეცემა მხოლოდ 2 მნიშვნელობა. ესენია: true და false, ანუ ჭეშმარიტი და მცდარი.
+# ეს ტიპი ხშირას გამოიყენება ლოგიკაში, შედარებებში და პირობებში. მაგალითად, თუ გინდა შეამოწმო არის თუ არა ორი რიცხვი ერთმანეთის ტოლი, მიიღებ boolean პასუხს:
+a = 5
+b = 3
+print(a == b) #ეს დაბეჭდავს false
+print(a>b) #ეს დაბეჭდავს true
 
-#II დავალება:
-name = "Luka"
-city = "Tbilisi"
-hobby = "wrestling"
-language = "Python"
+#ცვლადი (variable) -- ყუთი, რომელშიც ინახება მონაცემი. პროგრამირებაში გამოიყენება იმისთვის, რომ შევინახოთ, დავამუშავოთ და ვმართოთ ინფორმაცია პროგრამის მუშაობის დროს.
+# მაგ: რიცხვი, სიტყვა, ბულეანი და ა.შ.
 
-age = 16
-year = 2009
-score = 95
-height_cm = 175
-
-weight = 59.40
-temperature = 36.6
-price = 19.99
-distance_km = 12.5
-
-print(name)
-print(city)
-print(hobby)
-print(language)
-
-print(age)
-print(year)
-print(score)
-print(height_cm)
-
-print(weight)
-print(temperature)
-print(price)
-print(distance_km)
-
-
-#III დავალება:
-first_name = "Luka"
-last_name = "Jobava"
-
-full_name = first_name + last_name
-
-print(full_name)
-
-# ამ მოქმედებას ჰქვია "კონკატენაცია" ანუ სტრინგების შეერთება
-# ეს ხდება მაშინ, როცა ორი ან მეტი ტექსტური მონაცემი ერთმანეთს ემატება
-
-
-#IV დავალება:
-name1 = "giorgi"
-name2 = "goga"
-name3 = "lasha"
-name4 = "beka"
-name5 = "nika"
-
-result = name1 + name2 + name3 + name4 + name5
-
-print(result)
-
-
-#V დავალება:
-number1 = 5.5
-
-number2 = 4
-
-multiply = number1 * number2
-
-plus = number1 + number2
-
-minus = number1 - number2
-
-print(multiply)
-print(plus)
-print(minus)
+name = "luka"
+age = "16"
+height = "175"
+country = "Greece"
+food = "khinkali"
+device = "computer"
+sports = "mma"

@@ -1,73 +1,77 @@
-#I დავალება: მოცემულია სტრინგი "PythonProgramming".
-#ამოიღე პირველი 6 სიმბოლო და დაბეჭდე, გამოიყენეთ slicing
+#I დავალება: შექმენით 10 ელემენტიანი სია. სლაისინგის დახმარებით (დადებითი ინდექსებით):
+#--> გამოიტანეთ პირველი 5 ელემენტი
+#--> გამოიტანეთ ბოლო 3 ელემენტი
+#--> გამოიტანეთ ელემენტები 3 ინდექსიდან 7 ინდექსის ჩათვლით
 
-print()
-
-string = "PythonProgramming"
-print(string[:6])
-
-print()
-print()
-
-
-#II დავალება: მოცემულია სია numbers = [10, 20, 30, 40, 50, 60, 70].
-#ამოიღე მხოლოდ შუა 3 ელემენტი და დაბეჭდე, გამოიყენეთ slicing (მინუს ინდექსებითაც)
-
-numbers = [10, 20, 30, 40, 50, 60, 70]
-print(numbers[2:5])
-print(numbers[-5:-2])
-
+numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers[0:5])
+print(numbers[7:])
+print(numbers[3:8])
 print()
 print()
 
 
-#III დავალება: მოცემულია სტრინგი "HelloWorld".
-#დაბეჭდეთ Hello ტერმინალში slicing ის გამოყენებით (მინუს ინდექსებითაც)
+#II დავალება: შექმენით 15 ელემენტიანი სია. სლაისების დახმარებით (უარყოფითი ინდექსებით):
+#--> გამოიტანეთ პირველი 6 ელემენტი
+#--> გამოიტანეთ ბოლო 10 ელემენტი
+#--> გამოიტანეთ ელემენტები 7 ინდექსიდან 14 ინდექსის ჩათვლით (გონებაში გადაიყვანეთ უარყოფით ინდექსებში)
 
-string = "HelloWorld"
-print(string[:5])
-print(string[:-5])
-
+numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+print(numbers[-15:-9])
+print(numbers[-10:])
+print(numbers[-8:])
 print()
 print()
 
 
-#IV დავალება: მოცემულია სია letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g'].
-#დაბეჭდე ყოველი პირველი, მესამე, მეხუთე ელემენტები, გამოიყენეთ indexing (მინუს ინდექსებითაც)
+#III დავალება: 3) მოცემულია სიტვა 'თვითმფრინავი'
+#გამოიტანეთ 'ნავი'
 
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-print(letters[0])
-print(letters[2])
-print(letters[4])
-
-print(letters[-7])
-print(letters[-5])
-print(letters[-3])
-
+word = "თვითმფრინავი"
+print(word[-4:])
 print()
 print()
 
 
-#V დავალება: მოცემულია სტრინგი "Information".
-#ამოიღე "forma" ნაწყვეტი slicing-ით (მინუს ინდექსებითაც)
+#IV დავალება: მოცემულია სიტყვა 'Programmer'. სლაისინგის დახმარებით:
+#--> გამოიტანეთ 'Pro' დადებითი და უარყოფითი ინდექსებით
 
-string = "Information"
-print(string[2:7])
-print(string[-9:-4])
-
+word = "Programmer"
+print(word[0:3])
+print(word[:-7])
 print()
 print()
 
 
-#VI დავალება: მოცემულია სტრინგი "abcdefghijklmno".
-#შექმენი სამი სხვადასხვა სლაისი:
-#პირველი შეიცავდეს მხოლოდ a დან d მდე ასოებს
-#მეორე – შეიცავდეს j დან o მდე ასოებს
-#მესამე – შეიცავდეს f დან j მდე ასოებს
+#V დავალება: შექმენით სია სადაც შეინახავთ კვირის დღეების სახელებს. სლაისინგის დახმარებით:
+#--> გამოიტანეთ სამუშაო დღეები (დადებითი და უარყოფითი ინდექსებით)
+#--> გამოიტანეთ დასვენების დღეები (დადებითი და უარყოფითი ინდექსებით)
 
-string = "abcdefghijklmno"
-print(string[0:3])
-print(string[-6:-1])
-print(string[5:-6])
-
+the_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+print("სამუშაო დღეები:")
+print(the_week[0:5])
+print(the_week[-7:-2])
 print()
+print("დასვენების დღეები:")
+print(the_week[5:])
+print(the_week[-2:])
+print()
+print()
+
+
+#VI დავალება: მოცემულია წინადადება: 'Python slicing is very powerful'. სლაისინგის გამოყენებით ->
+#გამოიტანეთ: 
+#'Python'
+#'slicing'
+#'powerful'
+#გამოიყენეთ როგორც დადებითი ასევე უარყოფითი ინდექსები
+
+sentence = "Python slicing is very powerful"
+print(sentence[0:6])
+print(sentence[:-25])
+print()
+print(sentence[7:14])
+print(sentence[-24:-17])
+print()
+print(sentence[23:32])
+print(sentence[-8:])

@@ -1,121 +1,83 @@
 #I დავალება:
-num_1 = 75
-num_2 = 10
+a = 10
+b = 5
 
-sum_of_numbers = num_1 + num_2
-difference_of_numbers = num_1 - num_2
-product_of_numbers = num_1 * num_2
-quotient_of_numbers = num_1 / num_2
+print(a + b)
 
-print(sum_of_numbers)
-print(difference_of_numbers)
-print(product_of_numbers)
-print(quotient_of_numbers)
+print(a - b)
+
+print(a * b)
+
+print(a / b)
 
 
 #II დავალება:
 name = "Luka"
-name = "Dato"
-name = "Nika"
-name = "Toma"
-name = "Tiko"
-name = "Maria"
+city = "Tbilisi"
+hobby = "wrestling"
+language = "Python"
+
+age = 16
+year = 2009
+score = 95
+height_cm = 175
+
+weight = 59.40
+temperature = 36.6
+price = 19.99
+distance_km = 12.5
 
 print(name)
+print(city)
+print(hobby)
+print(language)
+
+print(age)
+print(year)
+print(score)
+print(height_cm)
+
+print(weight)
+print(temperature)
+print(price)
+print(distance_km)
 
 
 #III დავალება:
-name = "Nick Diaz"
-Name = "Dustin Poirier"
-NAME = "Charles Oliveira"
-NaMe = "George ST Pierre"
-nAmE = "Nate Diaz"
+first_name = "Luka"
+last_name = "Jobava"
 
-print(name)
-print(Name)
-print(NAME)
-print(NaMe)
-print(nAmE)
+full_name = first_name + last_name
+
+print(full_name)
+
+# ამ მოქმედებას ჰქვია "კონკატენაცია" ანუ სტრინგების შეერთება
+# ეს ხდება მაშინ, როცა ორი ან მეტი ტექსტური მონაცემი ერთმანეთს ემატება
 
 
 #IV დავალება:
-# 2name = "giorgi"
-# შეცდომა: ცვლადის სახელი არ შეიძლება დაიწყოს ციფრით.
-# გამოსწორება:
-name2 = "giorgi"
+name1 = "giorgi"
+name2 = "goga"
+name3 = "lasha"
+name4 = "beka"
+name5 = "nika"
 
-# user{name = "bubunauri"
-# შეცდომა: ცვლადების სახელებში არ შეიძლება "{" და "}".
-# გამოსწორება:
-user_name = "bubunauri"
+result = name1 + name2 + name3 + name4 + name5
 
-# user_name = goga
-# შეცდომა: "goga" არ არის ბრჭყალებში.
-# გამოსწორება:
-user_name = "goga"
-
-# user-surname = axalaia
-# შეცდომა: ცვლადში ტირე "-" არ შეიძლება, რადგან Python ამას აღიქვამს როგორც გამოკლებას და ასევე `"axalaia"` ბრჭყალებში უნდა იყოს.
-# გამოსწორება:
-user_surname = "axalaia"
+print(result)
 
 
 #V დავალება:
-first_name = "ლუკა"
-last_name = "ჯობავა"
-city_name = "თბილისი"
-favorite_TV_show = "Dexter"
-hobby_name = "ბერძნულ-რომაული ჭიდაობა"
+number1 = 5.5
 
-# ქვემოთ სტრინგების გაერთიანებას ეწოდება "კონკატენაცია" (Concatenation)
-full_sentence = first_name + last_name + "ცხოვრობს ქალაქში" + city_name + ", უყვარს სერიალი" + favorite_TV_show + " და ჰობად აქვს " + hobby_name
+number2 = 4
 
-print(full_sentence)
+multiply = number1 * number2
 
+plus = number1 + number2
 
-#VI დავალება:
-Name = "Luka"
-Number = 10
+minus = number1 - number2
 
-# სახელის გამრავლება
-Multiplication = (Name * Number)
-
-# ტერმინალში გამოტანა
-print(Multiplication)
-
-
-#VII დავალება:
-name = "ლუკა"
-number = 5
-
-#1)
-# name * number  — შეიძლება (სტრინგი გამრავლდეს რიცხვზე)
-result = name * number
-print(result)
-# შედეგი: ლუკალუკალუკალუკალუკა
-
-#2)
-# name + number — არ შეიძლება
-# კომენტარი: სტრინგსა და რიცხვს ვერ დავუმატებთ ერთმანეთს, გამოიწვევს შეცდომას (TypeError)
-# print(name + number)  #ეს გამოიწვევს შეცდომას:
-# TypeError: can only concatenate str (not "int") to str.
-
-#3)
-# name - number, name / number, name ** number — არ შეიძლება
-# კომენტარი: გამოკლება, გაყოფა, ხარისხში აყვანა და სხვა რიცხვითი ოპერაციები სტრინგზე არ მუშაობს.
-
-#მაგ:
-# print(name - number)  #შეცდომა
-# print(name / number)  #შეცდომა
-# print(name ** number) #შეცდომა
-
-#მოკლე შეჯამება:
-# მხოლოდ ერთი ოპერაციაა დაშვებული სტრინგსა და ინტეჯერზე:
-# str * int — სტრინგის გამრავლება.
-
-# შემდეგი ოპერაციები სტრინგზე და ინტეჯერზე არ შეიძლება:
-# str + int
-# str - int
-# str / int
-# str ** int
-# შედეგი: TypeError
+print(multiply)
+print(plus)
+print(minus)

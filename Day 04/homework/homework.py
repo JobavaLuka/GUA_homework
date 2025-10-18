@@ -1,92 +1,121 @@
 #I დავალება:
-# Input - ფუნქცია, რომელიც საშუალებას გვაძლევს, მომხმარებელს კერძოდ ტერმინალში შემოვატანინოთ რაღაც მნიშვნელობა, მივიღოთ ამ მნიშვნელობაზე წვდომა და დავამუშავოთ იგი.
-# Input-ის მაგალითია, როცა პროგრამა გვეკითხება ჩვენს სახელს და ჩვენ ვწერთ მას კლავიატურით.
+num_1 = 75
+num_2 = 10
 
-name = input("Enter your name in: ")  # ეს არის input — ჩვენი შეყვანილი მონაცემი ინახება ცვლადში "name".
+sum_of_numbers = num_1 + num_2
+difference_of_numbers = num_1 - num_2
+product_of_numbers = num_1 * num_2
+quotient_of_numbers = num_1 / num_2
 
-# Output - პასუხი, რომელიც გამოგვაქ მომხმარებლისთვის რაღაც მნიშვნელობის სახით.
-# Output-ის მაგალითია, როცა პროგრამა გვეუბნება: "თქვენი სახელი არის: ლუკა".
-
-print(name)  # ეს არის output — პროგრამა ბეჭდავს ეკრანზე შედეგს.
+print(sum_of_numbers)
+print(difference_of_numbers)
+print(product_of_numbers)
+print(quotient_of_numbers)
 
 
 #II დავალება:
-# მომხმარებლისგან შემოვიღოთ მნიშვნელობა
-value = input("შევიყვანოთ ნებისმიერი მნიშვნელობა: ")
+name = "Luka"
+name = "Dato"
+name = "Nika"
+name = "Toma"
+name = "Tiko"
+name = "Maria"
 
-# ვბეჭდავთ ამ ცვლადის მონაცემთა ტიპს
-print(type(value))
+print(name)
 
 
 #III დავალება:
-# string ტიპის ცვლადები
-name = "ლუკა"            # ეს არის string
-city = "თბილისი"         # ეს არის string
-language = "Python"       # ეს არის string
-hobby = "კითხვა"          # ეს არის string
-color = "ლურჯი"         # ეს არის string
+name = "Nick Diaz"
+Name = "Dustin Poirier"
+NAME = "Charles Oliveira"
+NaMe = "George ST Pierre"
+nAmE = "Nate Diaz"
 
-# integer ტიპის ცვლადები
-age = 16                  # ეს არის int
-year = 2049               # ეს არის int
-days_in_week = 7          # ეს არის int
-temperature = 30          # ეს არის int
-aura = 100                # ეს არის int
-
-# float ტიპის ცვლადები
-height = 1.75             # ეს არის float
-price = 9.99              # ეს არის float
-weight = 60.4             # ეს არის float
-speed = 317.2             # ეს არის float
-average = 1.45            # ეს არის float
+print(name)
+print(Name)
+print(NAME)
+print(NaMe)
+print(nAmE)
 
 
 #IV დავალება:
-# 3 ცვლადი სხვადასხვა მონაცემთა ტიპით
-name = "ლუკა"       # string ტიპი
-age = 16            # integer ტიპი
-height = 1.75       # float ტიპი
+# 2name = "giorgi"
+# შეცდომა: ცვლადის სახელი არ შეიძლება დაიწყოს ციფრით.
+# გამოსწორება:
+name2 = "giorgi"
 
-# ვამოწმებთ თითოეული ცვლადის მონაცემთა ტიპს და ვბეჭდავთ
-print(type(name))
-print(type(age))
-print(type(height))
+# user{name = "bubunauri"
+# შეცდომა: ცვლადების სახელებში არ შეიძლება "{" და "}".
+# გამოსწორება:
+user_name = "bubunauri"
+
+# user_name = goga
+# შეცდომა: "goga" არ არის ბრჭყალებში.
+# გამოსწორება:
+user_name = "goga"
+
+# user-surname = axalaia
+# შეცდომა: ცვლადში ტირე "-" არ შეიძლება, რადგან Python ამას აღიქვამს როგორც გამოკლებას და ასევე `"axalaia"` ბრჭყალებში უნდა იყოს.
+# გამოსწორება:
+user_surname = "axalaia"
 
 
 #V დავალება:
-# მომხმარებლისგან ორი სიტყვის მიღება
-word1 = input("Put in first word: ")
-word2 = input("Put in second word: ")
+first_name = "ლუკა"
+last_name = "ჯობავა"
+city_name = "თბილისი"
+favorite_TV_show = "Dexter"
+hobby_name = "ბერძნულ-რომაული ჭიდაობა"
 
-# სიტყვის კონკატინაცია
-result = word1 + " " + word2
+# ქვემოთ სტრინგების გაერთიანებას ეწოდება "კონკატენაცია" (Concatenation)
+full_sentence = first_name + last_name + "ცხოვრობს ქალაქში" + city_name + ", უყვარს სერიალი" + favorite_TV_show + " და ჰობად აქვს " + hobby_name
 
-# შედეგის დაბეჭდვა
-print(result)
+print(full_sentence)
 
 
 #VI დავალება:
-# მომხმარებლისგან 5 რიცხვის მიღება
-num1 = float(input("Put in first number: "))
-num2 = float(input("Put in second number: "))
-num3 = float(input("Put in third number: "))
-num4 = float(input("Put in fourth number: "))
-num5 = float(input("Put in fifth number: "))
+Name = "Luka"
+Number = 10
 
-# საშუალო არითმეტიკულის გამოთვლა
-average = (num1 + num2 + num3 + num4 + num5) / 5
+# სახელის გამრავლება
+Multiplication = (Name * Number)
 
-# შედეგის დაბეჭდვა
-print(average)
+# ტერმინალში გამოტანა
+print(Multiplication)
 
 
 #VII დავალება:
-# მონაცემების მიღება მომხმარებლისგან
-name = input("Put in your first name: ")
-surname = input("Put in your last name: ")
-age = input("Put in your age: ")
-height = input("Put in your height: ")
-weight = input("Put in your weight: ")
+name = "ლუკა"
+number = 5
 
-# წინადადების დაბეჭდვა
-print("მე ვარ", name, surname + ",", "ვარ", age, "წლის,", "სიმაღლე:", height, "სმ,", "წონა:", weight, "კგ.")
+#1)
+# name * number  — შეიძლება (სტრინგი გამრავლდეს რიცხვზე)
+result = name * number
+print(result)
+# შედეგი: ლუკალუკალუკალუკალუკა
+
+#2)
+# name + number — არ შეიძლება
+# კომენტარი: სტრინგსა და რიცხვს ვერ დავუმატებთ ერთმანეთს, გამოიწვევს შეცდომას (TypeError)
+# print(name + number)  #ეს გამოიწვევს შეცდომას:
+# TypeError: can only concatenate str (not "int") to str.
+
+#3)
+# name - number, name / number, name ** number — არ შეიძლება
+# კომენტარი: გამოკლება, გაყოფა, ხარისხში აყვანა და სხვა რიცხვითი ოპერაციები სტრინგზე არ მუშაობს.
+
+#მაგ:
+# print(name - number)  #შეცდომა
+# print(name / number)  #შეცდომა
+# print(name ** number) #შეცდომა
+
+#მოკლე შეჯამება:
+# მხოლოდ ერთი ოპერაციაა დაშვებული სტრინგსა და ინტეჯერზე:
+# str * int — სტრინგის გამრავლება.
+
+# შემდეგი ოპერაციები სტრინგზე და ინტეჯერზე არ შეიძლება:
+# str + int
+# str - int
+# str / int
+# str ** int
+# შედეგი: TypeError

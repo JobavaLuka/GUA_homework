@@ -1,45 +1,49 @@
-# ჩვენ წინა გაკვეთილში ვისწავლეთ 5 მონაცემთა ტიპი, ესენია: string, integer, float, boolean(ბულიონ) და print().
+from turtle import *
 
-#print() -- არის ფუნქცია რომელსაც გამოაქვს შედეგი ტერმინალში.
+#we want to paint a house
 
-#string -- ტექსტი, რომელიც მოცემული გვაქვს ბრჭყალებში "". მეორენაირად ტექსტის მონაცემთა ტიპი, ანუ სიმბოლოების მიმდევრობა.
-# მაგ: შეიცავს ასოებს, ციფრებს, სიმბოლოებს და ცარიელ ადგილებს (space).
-print("Luka")
-print("computer")
-print("200")
-print("house")
-print("14.5")
+#step 1: draw a square
+shape("turtle")
+speed(30)
+width(7)
+color("purple")
+forward(200)
+left(90)
 
-#integer -- არის მთელი რიცხვები, ანუ ყოველი მთელი რიცხვი მინუს უსასრულობიდან პლიუს უსასრულობამე.
-# მაგ: 1, 2, , 6, 2348, 689006.
-print(10)
-print(20)
-print(50)
-print(250)
-print(2000)
+forward(200)
+left(90)
 
-#float -- არის ათწილადი რიცხვები ან არამთელი რიცხვები.
-# მაგ: 2.5, 26.7, 89.12.
-print(1.5)
-print(8.7)
-print(66.3)
-print(145.6)
-print(1925.56)
+forward(200)
+left(90)
 
-#boolean -- ბულეანს გადაეცემა მხოლოდ 2 მნიშვნელობა. ესენია: true და false, ანუ ჭეშმარიტი და მცდარი.
-# ეს ტიპი ხშირას გამოიყენება ლოგიკაში, შედარებებში და პირობებში. მაგალითად, თუ გინდა შეამოწმო არის თუ არა ორი რიცხვი ერთმანეთის ტოლი, მიიღებ boolean პასუხს:
-a = 5
-b = 3
-print(a == b) #ეს დაბეჭდავს false
-print(a>b) #ეს დაბეჭდავს true
+forward(200)
+left(90)
+#end of square
 
-#ცვლადი (variable) -- ყუთი, რომელშიც ინახება მონაცემი. პროგრამირებაში გამოიყენება იმისთვის, რომ შევინახოთ, დავამუშავოთ და ვმართოთ ინფორმაცია პროგრამის მუშაობის დროს.
-# მაგ: რიცხვი, სიტყვა, ბულეანი და ა.შ.
+#drawing a door
 
-name = "luka"
-age = "16"
-height = "175"
-country = "Greece"
-food = "khinkali"
-device = "computer"
-sports = "mma"
+forward(70)
+color("yellow")
+left(90)
+forward(120)    #height of the door
+right(90)
+forward(60)
+right(90)
+forward(120)
+
+penup()
+goto(200, 200)
+pendown()
+
+color("red")
+begin_fill()
+right(150)
+forward(200)
+left(120)
+forward(200)
+end_fill()
+
+
+
+
+exitonclick()
