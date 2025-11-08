@@ -23,7 +23,7 @@ print()
 
 sentence = input("enter a sentence: ")
 
-if i in sentence:
+if "bad" in sentence:
     print("აკრძალული სიტყვა!")
 else:
     print("ყველაფერი რიგზეა")
@@ -56,7 +56,7 @@ print()
 sentence = input("Enter a sentence: ")
 
 for i in sentence:
-    if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+    if i == "a" or i == "e" or i == "i" or i == "o" or i == "u" or i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
         continue
     print(i)
 
@@ -68,7 +68,13 @@ print()
 #--> დაუარეთ ყველა რიცვს ამ დიაპაზონში
 #--> დაბეჭდეთ მხოლოდ რიგით პირველი რიცხვი ამ შუალედში რომელიც იყოფა 15-ზე (შეწყვიტეთ ციკლი თუ არის ეგეთი)
 
+num1 = int(input("First number: "))
+num2 = int(input("Second number: "))
 
+for i in range(num1,num2):
+    if i % 15 == 0:
+        print(i)
+        break
 
 print()
 print()
@@ -95,6 +101,11 @@ print()
 num1 = int(input("First number: "))
 num2 = int(input("Second number: "))
 
+count = 0
 
+for i in range(num1, num2 + 1, 3):
+    if i % 3 == 0:
+        print(i)
+        break
 
 print()
