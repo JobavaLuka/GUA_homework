@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>V assignment</title>
+    </head>
+
+    <body>
+        <!--შექმენით singlepage ვებგვერდი თქვენს ცხოველებზე, გამოიყენეთ სათაურები, პარაგრაფები, სურათები, ნავიგაცია, ფორმები, drop-down მენიუები, 
+        section-ები და ღილაკები, სურათს გაუწერეთ 2px ზომის წითელი ზღვარი, პარაგრაფები გახადეთ 22px ზომის, იასამნისფერი ტექსტის ფერი, მწვანე 
+        ფონის ფერით, 1px სისქის წითელი ზღვარით და ყველა პარაგრაფი იყოს ჰორიზონტალური სხივის შუაში, სათაურები იყოს ლურჯი ფერის, 56px ზომის 
+        და ყოველთვის იყოს შუაში - ცენტრში, უკანა ფონის ფერი ჰქონდეთ ყვითელი, ყველა ღილაკი იყოს 12px ზომის, წითელი ფერის, ვარდისფერი ფონის 
+        ფერის, და ჰქონდეთ 2px ყავისფერი ძღვარი. ყველა სხვა ელემენტები: ნავიგაცია, ფორმები, drop-down მენიუები, section-ები გასტილეთ თქვენი 
+        სურვილისამებრ, როგორც მოგეწონებათ ისე.-->
+        <header>
+            <h1 style="font-size:56px; color:blue; text-align:center; background-color:yellow;" id="top">ჩემი ცხოველები</h1>
+            <nav style="background-color:lightgray; text-align:center;">
+                <a href="#cat" style="font-size:12px; color:red; background-color:pink; border:2px solid brown;">კატა</a>
+                <a href="#dog" style="font-size:12px; color:red; background-color:pink; border:2px solid brown;">ძაღლი</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="cat" style="text-align:center;">
+                <h2 style="font-size:56px; color:blue; text-align:center; background-color:yellow;">კატა</h2>
+                <p style="font-size:22px; color:purple; background-color:green; border:1px solid red; text-align:center;">
+                    ჩემი კატა ფერნანდო. ძაან ბევრს ჭამს. ერთი პერიოდი მსუქანი იყო მარა ახლა დაიკლო.. რანაირად ეგ არ ვიცი რადგან მაინც ბევრს ჭამს.
+                </p>
+                <img src="fernando.jpg" alt="My cat" width="600" style="border:2px solid red;">
+                <br>
+                <button style="font-size:12px; color:red; background-color:pink; border:2px solid brown;">მეტი ინფორმაცია</button>
+
+                <a href="#top" style="font-size:12px; color:red; background-color:pink; border:2px solid brown;">top</a>
+            </section>
+
+            <section id="dog" style="text-align:center;">
+                <h2 style="font-size:56px; color:blue; text-align:center; background-color:yellow;">ძაღლი</h2>
+                <p style="font-size:22px; color:purple; background-color:green; border:1px solid red; text-align:center;">
+                    ჩემი ძაღლი ოტო. 14 წლის არის (მალე 15-ის ხდება), ჩემ დაზე 1 წლით უმცროსია. დაბერდა, მარა სხვა ძაღლებთან ჩხუბი მაინც 
+                    გამოსდის <br> (თავისი შეცდომებისგან არ სწავლობს).
+                </p>
+                <img src="oto.jpg" alt="My dog" width="600" style="border:2px solid red;">
+                <br>
+                <button style="font-size:12px; color:red; background-color:pink; border:2px solid brown;">მეტი ინფორმაცია</button>
+
+                <a href="#top" style="font-size:12px; color:red; background-color:pink; border:2px solid brown;">top</a>
+            </section>
+
+            <br><br>
+
+            <section style="text-align:center;">
+                <label for="pet" style="font-size:22px; color:purple; background-color:green; border:1px solid red;">
+                    რომელი იყო თქვენთვის უფრო საყვარელი:
+                </label>
+
+                <br><br>
+                
+                <select id="pet" name="pet" style="font-size:22px; color:purple; background-color:green; border:1px solid red;">
+                    <option value="dog">ოტო</option>
+                    <option value="cat">ფერნანდო</option>
+                </select>
+
+                <input type="submit" value="დადასტურება">
+            </section>
+        </main>
+    </body>
+</html>
