@@ -194,7 +194,7 @@ colors = ["red", "green", "blue", "yellow", "black", "purple"]
 colors.pop(0)
 print(colors)
 
-colors.remove("yellow")
+colors.pop("yellow")
 print(colors)
 
 print()
