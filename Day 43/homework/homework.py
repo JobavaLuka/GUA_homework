@@ -200,7 +200,9 @@ print()
 letters = ["a", "b", "c"]
 input_letter = input("Enter a letter")
 
-#????
+letters.insert( 1 , input_letter)
+
+print(letters)
 
 print()
 print()
@@ -212,7 +214,7 @@ print()
 values = [1, 2, 3, 4]
 input_index = int(input("Enter index: "))
 
-if 0 <= input_index < len(values):
+if input_index in values:
     values.pop(input_index)
 else:
     print("Index out of range")
@@ -231,7 +233,7 @@ pet_name = input("Enter pet name: ")
 
 if pet_name in pets:
     pets.remove(pet_name)
-    print("Removed")
+    print(pet_name , "Removed")
 else:
     print("Not found")
 
@@ -248,7 +250,8 @@ a = [5, 5, 7]
 input_num = int(input("Enter a number: "))
 
 if input_num in a:
-    print(a.count(input_num))
+    a.count(input_num)
+    print(a)
 else:
     a.append(input_num)
     print(a)
@@ -264,7 +267,7 @@ print()
 queue = ["first", "second"]
 new_element = input("Enter a new element: ")
 
-queue.insert(0, new_element)
+queue.insert( 0 , new_element)
 
 if len(queue) > 5:
     queue.pop()
