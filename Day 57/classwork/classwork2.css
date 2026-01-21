@@ -1,0 +1,13 @@
+div ul li {
+    color: red;
+    font-size: 35px;
+    border: 2px solid green;
+    background-color: blue;
+}
+
+nav ul li {
+    color: brown;
+    font-size: 50px;
+    border: 2px solid purple;
+    background-color: yellow;
+}

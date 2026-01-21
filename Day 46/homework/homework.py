@@ -61,7 +61,21 @@ print()
 #კენტ ინდექსზე სიაში, გაუხადეთ ასეთ სიტყვებს ყველა ასო პატარა - lowercase, ხოლო ყველა ის სიტყვა რომლის პირველი ასო არის Uppercase-ში და თან ეს 
 #სიტყვა დგას ლუწ ინდექსზე სიაში, ამოშალეთ სიიდან. დაპრინტეთ შეცვლილი სია.
 
+words = ["Track", "furious", "Impossible", "hive", "Ring", "Wizard", "airplane"]
 
+i = 0
+while i < len(words):
+
+    if words[i][0] == words[i][0].upper():
+        if i % 2 == 1:
+            words[i] = words[i].lower()
+            i += 1
+        else:
+            words.pop(i)
+    else:
+        i += 1
+
+print(words)
 
 print()
 print()
@@ -71,7 +85,21 @@ print()
 #ასევე Uppercase. ხოლო ყველა სიტყვა რომლის თითოეული ასო არის Lowercase-ში, აიყვანეთ Uppercase-ში შესაბამისი სტრინგის ფუნქციის გამოყენებით. 
 #დაპრინტეთ მიღებული სია.
 
+random_list = ["GratedG", "GorillazG", "bacon", "oil", "taser", "QUeeN"]
 
+i = 0
+while i < len(random_list):
+    word = random_list[i]
+
+    if word[0] == 'G' and word[-2:] == word[-2:].upper():
+        random_list.pop(i)
+    elif word == word.lower():
+        random_list[i] = word.upper()
+        i += 1
+    else:
+        i += 1
+
+print(random_list)
 
 print()
 print()
@@ -82,6 +110,21 @@ print()
 #ფუნქციით ამოშალეთ ყოველი ის სიტყვა რომელიც იწყება დიდი ასოთი და დგას ლუწ ინდექსზე. ბოლოს შეაერთეთ ორივე შეცვლილი სიები ერთმანეთში, 
 #გახადეთ საერთო სია და დაპრინტეთ. (კარგად დააკვირდით პირობას და არ იჩქაროთ. წარმატებები! ! !)
 
+integer_containing = [12, 87, 99, 14, 52, 10, 9, 8, 34]
+string_containing = ["Market", "Hover", "weight", "Spell", "potion"]
 
+for i in integer_containing[:]:
+    found_index = integer_containing.index(i)
+    if i % 2 == 0 and found_index % 2 == 1:
+        integer_containing.remove(i)
+
+for i in string_containing[:]:
+    found_index = string_containing.index(i)
+    if i[0] == i[0].upper() and found_index % 2 == 0:
+        string_containing.remove(i)
+
+result_list = integer_containing + string_containing
+
+print(result_list)
 
 print()

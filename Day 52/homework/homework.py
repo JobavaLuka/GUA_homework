@@ -44,7 +44,7 @@ print()
 
 words = ["Python", "CSS", "JavaScript", "Java", "HTML"]
 
-for i in words[:]:
+for i in words:
     if len(i) > 4 or words.index(i) % 2 == 1:
         words.remove(i)
 
