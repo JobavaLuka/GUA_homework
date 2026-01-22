@@ -1,0 +1,33 @@
+body {
+    background-color: #306998;
+    font-family: Arial;
+}
+
+header {
+    background-color: #FFD43B;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #306998;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 200px;
+}

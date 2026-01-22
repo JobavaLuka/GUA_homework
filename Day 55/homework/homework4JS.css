@@ -1,0 +1,28 @@
+body {
+    background-color: #f7df1e;
+    font-family: Arial;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+img {
+    width: 200px;
+}
