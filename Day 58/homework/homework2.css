@@ -1,0 +1,13 @@
+#div-one ol {
+    font-size: 27px;
+    color: yellow;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+#div-two ol {
+    font-size: 36px;
+    color: green;
+    background-color: red;
+    border: 8px solid brown;
+}

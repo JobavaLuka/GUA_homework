@@ -25,7 +25,25 @@ print()
 
 random_sentence = input("შეიყვანეთ რაიმე წინადადება: ")
 
+yvela = 0
+i = 0
+sigrdze = 0
 
+while i < len(random_sentence):
+    if random_sentence[i] != " ":
+        sigrdze += 1
+
+    else:
+        if sigrdze > 4:
+            yvela += 1
+        sigrdze = 0
+
+    i += 0
+
+if sigrdze > 4:
+    yvela += 1
+
+print(yvela)
 
 print()
 print()
@@ -34,7 +52,14 @@ print()
 #III დავალება:  მომხმარებელს შემოატანინეთ სიტყვა და გაიგეთ ეს სიტყვა არის თუ არა პალინდრომი - ანუ ეს სიტყვა წინიდანაც და უკნიდანაც თუ 
 #ზუსტად იგივენაირად იკითხება. თუ კი მაშინ დაპრინტეთ True, თუ არა დაპრინტეთ False, გამოიყენეთ for ციკლი, არ გამოიყენოთ slicing - [::-1].
 
+random_sentence = input("შეიყვანეთ რაიმე წინადადება: ")
 
+empty = ""
+
+for i in random_sentence:
+    empty = i + empty
+
+print(random_sentence == empty)
 
 print()
 print()
@@ -64,9 +89,16 @@ print()
 #V დავალება: შექმენით ყველანაირი მონაცემთა ტიპების ელემენტებით სავსე სია, ამოშალეთ ყველა დუპლიკატები - ყველაფერი რაც მეორდება 2-ზე მეტჯერ, 
 #გამოიყენეთ remove() ფუნქცია და while ციკლი.
 
-everything_list = ["microwave", "microphone", "track", "yellow", 1, 2, 3, 4, True, True, False, False, 23.3, 67.7, 420.0, 41.14]
+everything_list = ["microwave", "microphone", "microwave", "yellow", 1, 2, 1, 1, True, True, False, False, 23.3, 67.7, 420.0, 41.14]
 
+i = 0
+while i < len(everything_list):
+    if everything_list.count(everything_list[i]) > 1:
+        everything_list.remove(everything_list[i])
+    else:
+        i += 1
 
+print(everything_list)
 
 print()
 print()
@@ -77,6 +109,16 @@ print()
 
 random_sentence = input("შეიყვანეთ რაიმე წინადადება: ")
 
+words = random_sentence.split(" ")
 
+longest_word = ""
+i = 0
+
+while i < len(words):
+    if len(words[i]) > len(longest_word):
+        longest_word = words [i]
+    i += 1
+
+print(longest_word)
 
 print()

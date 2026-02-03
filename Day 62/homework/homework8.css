@@ -1,0 +1,29 @@
+#div-one {
+    width: 200px;
+    height: 120px;
+    background-color: red;
+}
+
+#div-one button {
+    background-color: orange;
+}
+
+#div-two {
+    width: 220px;
+    height: 140px;
+    background-color: green;
+}
+
+#div-two button {
+    background-color: yellow;
+}
+
+#div-three {
+    width: 240px;
+    height: 160px;
+    background-color: blue;
+}
+
+#div-three button {
+    background-color: purple;
+}

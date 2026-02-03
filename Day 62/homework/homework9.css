@@ -1,0 +1,62 @@
+#th1 {
+    font-weight: bold;
+    color: rgb(29, 29, 131);
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#th2 {
+    font-weight: bold;
+    color: rgb(29, 29, 131);
+    background-color: orange;
+    border: 1px solid black;
+}
+
+#th3 {
+    font-weight: bold;
+    color: rgb(29, 29, 131);
+    background-color: green;
+    border: 1px solid black;
+}
+
+#td1 {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(251, 190, 76);
+    border: 1px solid black;
+}
+
+#td2 {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 127, 127);
+    border: 1px solid black;
+}
+
+#td3 {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 202, 105);
+    border: 1px solid black;
+}
+
+#td4 {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(231, 21, 21);
+    border: 1px solid black;
+}
+
+#td5 {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid black;
+}
+
+#td6 {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(22, 179, 235);
+    border: 1px solid black;
+}

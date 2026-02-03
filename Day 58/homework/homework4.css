@@ -1,0 +1,13 @@
+#table-one {
+    font-size: 15px;
+    color: blue;
+    background-color: green;
+    border: 3px solid black;
+}
+
+#table-two {
+    font-size: 18px;
+    color: green;
+    background-color: red;
+    border: 3px solid black;
+}

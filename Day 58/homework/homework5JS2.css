@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana;
+    background-color: #fff7ed;
+    color: #3f2a00;
+}
+
+header {
+    background-color: #fb923c;
+    padding: 10px;
+}
+
+nav a {
+    color: #3f2a00;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #c2410c;
+}
+
+p {
+    font-size: 18px;
+}
