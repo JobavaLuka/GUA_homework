@@ -1,0 +1,19 @@
+.heading1 {
+    text-shadow: -2px 2px 2px gold;
+}
+
+.heading2 {
+    text-shadow: 3px -2px 2px violet;
+}
+
+.heading3 {
+    text-shadow: -5px 2px -2px blue;
+}
+
+.heading4 {
+    text-shadow: -20px 3px -2px purple;
+}
+
+.heading5 {
+    text-shadow: 13px 0px 3px red;
+}

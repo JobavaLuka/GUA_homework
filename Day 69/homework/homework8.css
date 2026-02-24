@@ -1,0 +1,14 @@
+#p1 {
+    text-decoration: underline double rgb(224, 118, 224);
+    font-size: 40px;
+}
+
+#p2 {
+    text-decoration: line-through dashed rgb(6, 234, 6);
+    font-size: 40px;
+}
+
+#p3 {
+    text-decoration: overline dotted rgb(27, 27, 175);
+    font-size: 40px;
+}

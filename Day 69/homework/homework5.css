@@ -1,0 +1,11 @@
+.Pupper {
+    text-transform: uppercase;
+}
+
+.Plower {
+    text-transform: lowercase;
+}
+
+.Pcapitalize {
+    text-transform: capitalize;
+}
