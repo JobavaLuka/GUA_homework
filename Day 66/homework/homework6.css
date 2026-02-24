@@ -1,0 +1,19 @@
+.paragraph  {
+    color: pink;
+    font-size: 30px;
+    background-color: blue;
+    text-align: center;
+    border: 4px solid green;
+}
+
+.only-div .b1 {
+    background: red;
+}
+
+.only-div .b2 {
+    background: yellow;
+}
+
+.only-div .b3 {
+    background: lightgray;
+}

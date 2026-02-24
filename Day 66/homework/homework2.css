@@ -1,0 +1,7 @@
+#only-div h1, #only-div h2, #only-div h3 {
+    color: blue;
+    font-size: 25px;
+    background-color: red;
+    border: 4px solid green;
+    text-align: left;
+}

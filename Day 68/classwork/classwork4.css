@@ -1,0 +1,11 @@
+#p-one {
+    text-transform: lowercase;
+}
+
+#p-two {
+    text-transform: uppercase;
+}
+
+#p-three {
+    text-transform: capitalize;
+}

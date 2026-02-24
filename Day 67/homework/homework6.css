@@ -1,0 +1,19 @@
+.only-div {
+    color: #00FF00;
+    background-color: #fff;
+}
+
+#firstHeading {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+.secondHeading {
+    color: #0000FF;
+    font-size: 40px;
+}
+
+p {
+    color: rgb(167, 167, 0);
+    font-size: 20px;
+}

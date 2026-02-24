@@ -1,0 +1,5 @@
+p {
+    text-decoration-line: overline underline line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(255, 0, 0);
+}

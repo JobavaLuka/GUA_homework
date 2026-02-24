@@ -1,0 +1,20 @@
+#buttonCLASS {
+    color: #ffffff;
+    background-color: rgb(100, 100, 255);
+    font-size: 25px;
+    border: 5px solid #00ff00;
+}
+
+.buttonID {
+    color: #000000;
+    background-color: #ff99ff;
+    font-size: 20px;
+    border: 3px solid #0000ff;
+}
+
+div button {
+    color: #00FFFF;
+    background-color: #ff9900;
+    font-size: 40px;
+    border: 3px solid #ff00ff;
+}

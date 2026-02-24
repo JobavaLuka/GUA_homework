@@ -1,0 +1,45 @@
+.heading {
+    color: navy;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#p1 {
+    color:red;
+}
+
+#p2 {
+    color:blue;
+}
+
+#p3 {
+    color:green;
+}
+
+#p4 {
+    color:orange;
+}
+
+#p5 {
+    color:purple;
+}
+
+#p6 {
+    color:brown;
+}
+
+#p7 {
+    color:gray;
+}
+#p8 {
+    color:pink;
+}
+
+#p9 {
+    color:teal;
+}
+
+#p10 {
+    color:black;
+}

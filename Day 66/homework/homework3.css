@@ -1,0 +1,45 @@
+#heading1 {
+    font-size: 40px;
+    color: red;
+    background-color: yellow;
+    border: 4px solid green;
+    text-align: left;
+}
+
+#heading2 {
+    font-size: 45px;
+    color: blue;
+    background-color: yellow;
+    border: 4px solid green;
+    text-align: left;
+}
+
+#heading3 {
+    font-size: 50px;
+    color: green;
+    background-color: yellow;
+    border: 4px solid green;
+    text-align: left;
+}
+#heading4 {
+    font-size: 55px;
+    color: purple;
+    background-color: yellow;
+    border: 4px solid green;
+    text-align: left;
+}
+#heading5 {
+    font-size: 60px;
+    color: orange;
+    background-color: yellow;
+    border: 4px solid green;
+    text-align: left;
+}
+
+#heading6 {
+    font-size: 65px;
+    color: brown;
+    background-color: yellow;
+    border: 4px solid green;
+    text-align: left;
+}

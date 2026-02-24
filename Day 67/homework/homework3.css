@@ -1,0 +1,15 @@
+.only-div {
+    color: rgb(67, 167, 167);
+    background-color: #fff;
+    font-size: 24px;
+    border: 4px solid #0000FF;
+    text-align: left;
+}
+
+.only-p {
+    color: rgb(67, 67, 167);
+    background-color: #000;
+    font-size: 30px;
+    border: 5px solid #fff;
+    text-align: center;
+}
