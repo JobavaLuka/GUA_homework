@@ -1,0 +1,68 @@
+.p1 {
+    margin: 25px 150px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(51, 198, 51);
+}
+
+.p2 {
+    margin: 25px 67px;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.p3 {
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(255, 0, 0);
+}
+
+.p4 {
+    margin: 25px 68px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.p5 {
+    margin: 25px 130px;
+    text-decoration-line: line-through;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(51, 198, 51);
+}
+
+.p6 {
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.p7 {
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.p8 {
+    margin: 25px 166px;
+    color: rgb(51, 198, 51);
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(51, 198, 51);
+}
+
+.p9 {
+    margin: 25px 67px;
+    color: rgb(185, 184, 184);
+    text-decoration-line: overline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(162, 162, 162);
+}
+
+.p10 {
+    margin: 25px 162px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(51, 198, 51);
+}
