@@ -1,6 +1,5 @@
-#I codewars დავალება:
+#I codewars დავალება: Reversed Strings
 #Complete the solution so that it reverses the string passed into it.
-
 #'world'  =>  'dlrow'
 #'word'   =>  'drow'
 
@@ -16,7 +15,8 @@ print()
 print()
 
 
-#II codewars დავალება:
+#II codewars დავალება: Sum of positive
+#Task
 #You get an array of numbers, return the sum of all of the positives ones.
 
 #Example:
@@ -39,7 +39,7 @@ print()
 print()
 
 
-#III codewars დავალება:
+#III codewars დავალება: String repeat
 #Write a function that accepts a non-negative integer n and a string s as parameters, and returns a string of s repeated exactly n times.
 
 #Examples (input -> output):
@@ -53,9 +53,10 @@ print()
 print()
 
 
-#IV codewars დავალება:
+#IV codewars დავალება: Square(n) Sum
 #Complete the square sum function so that it squares each number passed into it and then sums the results together.
-#For example, for [1, 2, 2] it should return 9
+
+#For example, for [1, 2, 2] it should return 9 because 1² + 2² + 2² = 9
 
 def square_sum(numbers):
     total = 0
@@ -67,9 +68,16 @@ print()
 print()
 
 
-#V codewars დავალება:
+#V codewars დავალება: Convert a String to a Number!
+#Description
 #We need a function that can transform a string into a number. What ways of achieving this do you know?
 #Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+
+#Examples
+#"1234" --> 1234
+#"605"  --> 605
+#"1405" --> 1405
+#"-7" --> -7
 
 def string_to_number(s):
     return int(s)

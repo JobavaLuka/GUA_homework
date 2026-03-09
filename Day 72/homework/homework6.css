@@ -1,0 +1,10 @@
+table {
+    font-weight: bold;
+    color: rgb(255, 0, 162);
+    font-size: 30px;
+}
+
+td {
+    background-color: rgb(0, 0, 255);
+    border: 2px solid rgb(255, 247, 0);
+}
