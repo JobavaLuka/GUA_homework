@@ -1,0 +1,21 @@
+ol {
+    list-style-type: square;
+    color: darkblue;
+    background-color: lightyellow;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: upper-alpha;
+    color: darkgreen;
+    background-color: lightgray;
+    border: 2px solid black;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: cursive;
+    text-decoration: none;
+}

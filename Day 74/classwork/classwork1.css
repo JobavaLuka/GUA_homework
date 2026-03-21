@@ -1,0 +1,26 @@
+a {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#a1:link {
+    color: purple;
+    background-color: yellow;
+}
+
+#a2:hover {
+    color: red;
+    background-color: blue;
+}
+
+#a3:active {
+    color: green;
+    background-color: red;
+}
+
+#a4:visited {
+    color: pink;
+    background-color: navy;
+}

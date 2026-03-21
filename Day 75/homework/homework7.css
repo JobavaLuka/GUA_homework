@@ -1,0 +1,9 @@
+a:link {
+    color: yellow;
+    font-family: Verdana;
+}
+
+a:active {
+    border: 3px solid red;
+    background-color: pink;
+}

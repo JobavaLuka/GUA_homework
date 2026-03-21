@@ -1,0 +1,17 @@
+ul {
+    list-style-type: disc;
+    color: navy;
+    background-color: white;
+    font-weight: bold;
+    font-size: 45px;
+    border: 10px solid darkslateblue;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    color: darkred;
+    background-color: black;
+    font-weight: lighter;
+    font-size: 35px;
+    border: 5px solid darkgray;
+}
