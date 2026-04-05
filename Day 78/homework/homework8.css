@@ -1,0 +1,21 @@
+ol {
+    list-style: none;
+    width: 420px;
+    margin: auto;
+}
+
+ol li {
+    background-image: url('menu.png');
+    border: 2px solid #2a4056;
+    color: #ffffff;
+    background-color: #3498db;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ol li:hover {
+    background-color: #3a3d41;
+    color: #f1c40f;
+    border-color: #f1c40f;
+    text-decoration: line-through;
+}

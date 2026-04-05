@@ -1,0 +1,7 @@
+.ul1 li {
+    list-style: outside url("heart.png");
+}
+
+.ul2 li {
+    list-style: inside url("heart.png");
+}

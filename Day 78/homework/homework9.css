@@ -1,0 +1,17 @@
+ol {
+    list-style: upper-roman inside;
+    border: 3px solid #314356;
+    color: #ffffff;
+    background-color: #8e44ad;
+    font-family: cursive;
+    width: 420px;
+    margin: auto;
+}
+
+ul {
+    list-style: square outside;
+    border: 2px solid #3b536b;
+    color: #0a61b9;
+    background-color: #ecf0f1;
+    font-family: sans-serif;
+}

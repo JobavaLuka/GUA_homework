@@ -1,0 +1,17 @@
+ol {
+    list-style: decimal inside;
+    color: #ffffff;
+    background-color: #27ae60;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+li:hover {
+    background-color: #145a32;
+    color: #f1c40f;
+}
+
+li:active {
+    background-color: #0b3d1f;
+    color: #ffffff;
+}

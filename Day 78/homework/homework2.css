@@ -1,0 +1,10 @@
+ul {
+    list-style-image: url('shopping_cart.png');
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #6aff00;
+    border: 5px solid #000000;
+    width: 368px;
+    font-weight: bold;
+    margin: auto;
+}

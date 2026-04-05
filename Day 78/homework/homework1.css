@@ -1,0 +1,12 @@
+ul {
+    list-style-position: inside;
+    border: 5px solid #000069;
+    color: #370237;
+    background-color: #bc6969;
+    width: 400px;
+}
+
+li {
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+ul {
+    list-style: square inside url('heart.png');
+    border: 10px solid #288cf0;
+    background-color: #ecf0f1;
+    font-family: sans-serif;
+    width: 400px;
+}
+
+li:hover {
+    background-color: #ff0000;
+    color: #0008ff;
+}
