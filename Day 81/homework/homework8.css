@@ -1,0 +1,11 @@
+button {
+    padding: 60px 40px;
+    border-top: 10px solid red;
+    border-bottom: 10px solid blue;
+    border-right: 10px solid purple;
+    border-left: 10px solid yellow;
+}
+
+p, button, h1 {
+    margin: 148px;
+}
