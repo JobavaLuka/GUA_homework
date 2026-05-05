@@ -1,0 +1,17 @@
+.parent-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 220px;
+    background-color: lightyellow;
+    border: 5px solid red;
+}
+
+.child-divs {
+    padding: 13px;
+    margin: 40px;
+    font-size: 25px;
+    background-color: green;
+}

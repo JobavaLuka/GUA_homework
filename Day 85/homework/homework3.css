@@ -1,0 +1,24 @@
+nav {
+    background: #481f1f;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    flex-grow: 1;
+}
+
+img {
+    width: 50px;
+}
+
+button {
+    background: #925336;
+    padding: 8px 14px;
+}

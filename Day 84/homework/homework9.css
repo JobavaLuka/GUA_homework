@@ -1,0 +1,9 @@
+ul {
+    border: 5px solid black;
+    list-style: none;
+
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    margin: 0;
+}

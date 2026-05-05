@@ -1,0 +1,24 @@
+.parent-div {
+    width: 500px;
+    height: 100px;
+    border: 2px solid purple;
+    display: flex;
+    gap: 5px;
+}
+
+.child-divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 191, 255);
+    width: 100px;
+    height: 100px;
+}
+
+.child-divs:hover {
+    background: red;
+}
+
+#three:hover {
+    flex-grow: 4;
+}

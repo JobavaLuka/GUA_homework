@@ -1,0 +1,21 @@
+.parent-div {
+    width: 700px;
+    height: 100px;
+    border: 2px solid red;
+    display: flex;
+}
+
+.child-divs {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+#two {
+    flex-grow: 2;
+}

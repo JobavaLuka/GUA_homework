@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-div {
+    width: 700px;
+    height: 700px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.child-divs {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+#one {
+    flex-grow: 1;
+    flex-basis: 10px;
+}
+
+#three {
+    width: 200px;
+}
+
+#five {
+    flex-shrink: 5;
+}
