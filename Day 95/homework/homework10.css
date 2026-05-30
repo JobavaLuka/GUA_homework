@@ -1,0 +1,25 @@
+.photo-gallery {
+    display: flex;
+    gap: 15px;
+}
+
+.photos {
+    position: relative;
+    width: 200px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.new {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}

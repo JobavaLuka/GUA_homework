@@ -1,0 +1,16 @@
+.card-div {
+    width: 400px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.sale {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-color: red;
+    padding: 5px 10px;
+}

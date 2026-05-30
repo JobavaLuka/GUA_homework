@@ -1,0 +1,12 @@
+body {
+    height: 1000vh;
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    padding: 15px 20px;
+    font-size: 16px;
+}

@@ -1,0 +1,16 @@
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    margin-right: 100px;
+}
+
+p {
+    font-size: 40px;
+}

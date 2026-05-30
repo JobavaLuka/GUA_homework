@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.div1 {
+    border: 1px solid blue;
+}
+
+.div2 {
+    border: 1px solid red;
+}
+
+.div3 {
+    border: 1px solid yellow;
+}
+
+.div4 {
+    border: 1px solid green;
+}
+
+#three {
+    position: relative;
+    top: 65px;
+    left: 105px;
+}
