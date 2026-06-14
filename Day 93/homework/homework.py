@@ -46,7 +46,7 @@ def palindrome_chain_length(n):
         n = n + reversed
 
         steps += 1
-        
+
     return steps
 
 print()

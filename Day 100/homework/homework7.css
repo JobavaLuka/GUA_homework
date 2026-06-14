@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height: 100px;
+    background: red;
+}
+
+div:hover {
+    transform: translateY(-10px);
+}

@@ -35,7 +35,16 @@ print()
 #"Hello World" --> "World Hello"
 #"Hi There." --> "There. Hi"
 
+def reverse(st):
 
+    w = st.split()
+    s = ""
+    w.reverse()
+
+    for i in w:
+        s += i + " "
+
+    return s[0:-1]
 
 print()
 print()

@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: background-color 2s ease-in, transform 5s ease-in, border-radius 2.5s ease-in, box-shadow 6s ease-in;
+    transition-delay: 2s;
+}
+
+div:hover {
+    background-color: blue;
+    transform: translate(70px, 100px) rotate(400deg);
+    border-radius: 50%;
+    box-shadow: 0 20px 20px black;
+}

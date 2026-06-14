@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red , #blue , #green {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+    right: 50px;
+    top: 150px;
+    z-index: 1;
+}
+
+#green {
+    background-color: green;
+    left: 50px;
+    bottom: 150px;
+    z-index: 2;
+}

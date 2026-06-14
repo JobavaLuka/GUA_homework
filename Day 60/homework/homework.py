@@ -135,7 +135,6 @@ for i in m:
         list1 = word
         word = ""
 print(list1)
-# ვერ გავიგე
 
 print()
 print()

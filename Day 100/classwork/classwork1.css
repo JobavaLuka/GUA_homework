@@ -1,0 +1,9 @@
+.only-div {
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    transform-origin: bottom right;
+    transform: rotate(120deg);
+}
