@@ -1,0 +1,22 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: move;
+    animation-duration: 4s;
+    transform-origin: top right;
+}
+
+@keyframes move {
+    from {
+        
+    }
+
+    to {
+        transform: translate(200px, 100px) rotate(360deg);
+        width: 200px;
+        height: 200px;
+        background: purple;
+        border-radius: 40%;
+    }
+}

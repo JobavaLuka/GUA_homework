@@ -1,0 +1,25 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from {
+        
+    }
+
+    to {
+        transform: scale(5) rotate(90deg);
+        width: 200px;
+        height: 200px;
+        background: yellow;
+        border-radius: 50px;
+    }
+}

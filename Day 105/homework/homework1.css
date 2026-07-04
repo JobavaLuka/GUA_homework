@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(43, 7, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.main-div {
+    display: flex;
+    gap: 35px;
+}
+
+.div {
+    background-color: white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    animation: move 1s infinite;
+}
+
+.div1 {
+    animation-delay: 0s;
+}
+
+.div2 {
+    animation-delay: 0.2s;
+}
+
+.div3 {
+    animation-delay: 0.4s;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+p {
+    margin-top: 50px;
+    color: white;
+    font-size: 22px;
+}
