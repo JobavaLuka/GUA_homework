@@ -1,0 +1,15 @@
+.parent{
+    width: 450px;
+    height: 400px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px 70px; 
+}
+
+.child{
+    background-color: red;
+    grid-area: 4 / 3 / 7 / 6;
+    grid-column: 3 / 6;
+    grid-row: 4 / 7;
+}
