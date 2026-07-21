@@ -21,7 +21,6 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto auto;
     gap: 24px;
 }
 
@@ -38,7 +37,6 @@ body {
     background-color: #7541c8;
     color: #ffffff;
     background-repeat: no-repeat;
-    background-position: top 0 right 15%;
     grid-column: 1 / span 2;
     grid-row: 1;
 }
