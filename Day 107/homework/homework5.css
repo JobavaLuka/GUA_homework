@@ -1,0 +1,14 @@
+.main-div {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    background-color: red;
+    /* justify-items: start; */
+    /* justify-items: center; */
+    /* justify-items: end; */
+}
+
+.child-div {
+    width: 60px;
+    background-color: blue;
+    color: yellow;
+}

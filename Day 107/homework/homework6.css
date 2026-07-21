@@ -1,0 +1,15 @@
+.main-div {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 120px;
+    background-color: red;
+    /* align-items: start; */
+    /* align-items: center; */
+    /* align-items: end; */
+}
+
+.child-div {
+    height: 40px;
+    background-color: blue;
+    color: yellow;
+}

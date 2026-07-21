@@ -1,0 +1,18 @@
+.main-div {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    width: 700px;
+    height: 250px;
+    background-color: red;
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+    /* justify-content-ის შეცვლისას მთელი გრიდი ჰორიზონტალურად 
+    (X ღერძზე / მარცხნივ-მარჯვნივ) გადაადგილდება კონტეინერის შიგნით. */
+}
+
+.child-div {
+    background-color: blue;
+    color: yellow;
+}

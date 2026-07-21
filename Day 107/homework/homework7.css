@@ -1,0 +1,32 @@
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 80px);
+    width: 900px;
+    height: 500px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+}
+
+.child-div {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.div-1 { background-color: red; }
+.div-2 { background-color: darkred; }
+.div-3 { background-color: orange; }
+.div-4 { background-color: darkorange; }
+.div-5 { background-color: yellow; }
+.div-6 { background-color: green; }
+.div-7 { background-color: darkgreen; }
+.div-8 { background-color: blue; }
+.div-9 { background-color: darkblue; }
+.div-10 { background-color: indigo; }
+.div-11 { background-color: violet; }
+.div-12 { background-color: darkviolet; }
