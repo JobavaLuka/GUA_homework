@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #fffdfa;
+}
+
+.container {
+    width: 1110px;
+    margin: 40px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #00001a;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5e607a;
+}
+
+
+main {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.left {
+    flex: 2;
+}
+
+.left img {
+    width: 100%;
+    display: block;
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.hero-title {
+    flex: 1;
+}
+
+.hero-title h2 {
+    font-size: 56px;
+    line-height: 1;
+    color: #00001a;
+    font-weight: 800;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.hero-text p {
+    color: #5e607a;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+button {
+    width: 185px;
+    height: 50px;
+    border: none;
+    background: #f15d51;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+.right {
+    flex: 1;
+    background: #00001a;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right h2 {
+    color: #e9ab53;
+    font-size: 42px;
+}
+
+.news {
+    border-bottom: 1px solid #5e607a;
+    padding-bottom: 30px;
+}
+
+.news:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+.news h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.news h3:hover {
+    color: #e9ab53;
+}
+
+.news p {
+    color: #c5c6ce;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.card img {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card span {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.card h3 {
+    color: #00001a;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.card p {
+    color: #5e607a;
+    line-height: 1.7;
+    font-size: 15px;
+}
