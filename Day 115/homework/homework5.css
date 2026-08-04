@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    font-size: 35px;
+}
+
+@media (max-width: 600px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
