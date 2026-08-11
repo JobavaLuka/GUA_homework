@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 230px 30px 150px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+    list-style: none;
+    font-size: 16px;
+    color: #1C1B1B;
+    font-weight: 700;
+}
+
+.icons img{
+    width: 45px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#menu {
+    width: 35px;
+    display: none;
+}
+
+.section1 {
+    display: flex;
+    background-color: rgb(240, 239, 235);
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+
+.sec1_div {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: start;
+    width: 800px;
+}
+
+.sec1_div h1 {
+    font-size: 60px;
+    font-weight: 700;
+    width: 67%;
+}
+
+.sec1_div p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    width: 60%;
+}
+
+.sec1_div button {
+    width: 130px;
+    height: 36px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 100px;
+    border: 1px;
+}
+
+@media (max-width: 1800px) {
+    .sec1_div h1 {
+        font-size: 40px;
+    }
+
+    .sec1_div p {
+        font-size: 20px;
+    }
+
+    .section1 img {
+        width: 40%;
+    }
+}
+
+
+
+
+@media (max-width: 1200px) {
+    header {
+        padding: 30px 50px;
+    }
+
+    .section1 {
+        padding: 40px;
+    }
+
+    .sec1_div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) {
+    header {
+        padding: 20px 20px;
+    }
+
+    nav {
+        padding: 0px 21px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .sec1_div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+    }
+
+    .section1 img {
+        width: 80%;
+    }
+
+    .sec1_div h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .sec1_div p {
+        width: 100%;
+        font-size: 15px;
+    }
+}

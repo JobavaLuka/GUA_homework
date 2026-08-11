@@ -47,16 +47,22 @@ print()
 #III დავალება: დაწერეთ ფუნქცია, რომელშიც მომხმარებელს შემოატანინებთ ბინარულ - ორობით სტრინგს, 
 #და ამ ორობით სტრინგს გადააქცევთ ათობით რიცხვად. მაგალითად: "101" → 5
 
-def binary_to_decimal():
+def binary_to_decimal(n):
 
     binary_str = input("შეიყვანეთ ორობითი რიცხვი: ")
+    result = 0
+    new_string = binary_str[::-1]
 
-    return int(binary_str, 2)
+    for i in range(len(new_string)):
+        if new_string[i] == "1":
+            result += 2 ** i
 
-print(binary_to_decimal())
+    return result
 
-print()
-print()
+print(binary_to_decimal(100))
+
+# print()
+# print()
 
 
 #IV დავალება: დაწერეთ ფუნქცია, რომელშიც მომხმარებელს შემოატანინებთ დადებით მთელ რიცხვს, 
