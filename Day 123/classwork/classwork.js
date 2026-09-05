@@ -1,0 +1,6 @@
+console.log("Luka")
+console.log("Jobava")
+console.log(17)
+console.log("Isani")
+console.log(177)
+console.log(true)
